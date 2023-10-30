@@ -1,0 +1,8 @@
+.contprincipal{
+    width: $widthcont;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 30% 60% 10%;
+}
+
