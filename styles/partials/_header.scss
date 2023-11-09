@@ -6,7 +6,7 @@ header{
     .titheader{
         width: $widthcont;
         min-height: 55%;
-        padding-top: 25px;
+        padding-top: 15px;
         padding-left: 21%;
         background-color: rgba(44, 28, 2, 50%);
         color:rgba(249, 250, 200, 0.859);
@@ -16,6 +16,12 @@ header{
 
         .titprinc {
             font-size: 14.5px;   
+        }
+
+        img {
+            padding-left: 7%;
+            width: 14%;
+            // background-image: rgba(248, 248, 60, 0.283);
         }
         
         @include mobile{
@@ -46,27 +52,23 @@ header{
             justify-content: center;
 
             li{
-
                 :hover{
                     background: rgba(0,0,0,0.3);
-                } 
-
+                }
                 a{
                     display: block;
                     padding: 25px 48px;
                     text-decoration: none; 
-                    // color: rgba(44, 28, 2, 50%);
                     color:rgb(249, 250, 200);
                     font-family: $fontYoung;
                     font-size: 15px;
                     font-weight: 400;
                 } 
-            }
-                
+            }                
             .active a {
                 color: rgb(44, 28, 2);
-            }            
-        
+            }          
+      
         }
 
 
@@ -89,8 +91,9 @@ header{
               
                 li {
                     border-top: 1px solid #fff;
-                    border-right: 1px solid #fff;                }
+                    border-right: 1px solid #fff;
                 }
+            }
             #btn-menu:checked ~ .menu {
                 margin: 0;
             }
